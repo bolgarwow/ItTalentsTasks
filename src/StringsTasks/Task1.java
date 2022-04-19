@@ -6,10 +6,15 @@ package StringsTasks;
 
 public class Task1 {
 
-    public boolean stringStartedWith( String a, String b)
+
+
+    public static boolean stringStartedWith( String a, String b)
     {
         return b.startsWith(a);
     }
+
+
+
 
 
 }
