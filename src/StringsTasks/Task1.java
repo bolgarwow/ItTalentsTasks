@@ -6,8 +6,9 @@ package StringsTasks;
 
 public class Task1 {
 
-    public static void main(String[] args) {
-    String a;
+    public boolean stringStartedWith( String a, String b)
+    {
+        return b.startsWith(a);
     }
 
 
