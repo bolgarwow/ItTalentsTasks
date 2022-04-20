@@ -13,6 +13,7 @@ public class Task5 {
         System.out.println(isAnagramma("anna","David"));
         System.out.println(isAnagramma("anna","nano"));
         System.out.println(isAnagramma("nina","ianni"));
+        System.out.println(isAnagramma("adds","sadd"));
     }
 
 
@@ -27,7 +28,7 @@ public class Task5 {
                     result = true;
                 }
                 else {
-                    result = true;
+                    result = false;
                     break;
                 }
 
