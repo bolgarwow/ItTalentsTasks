@@ -142,6 +142,84 @@ public class Task4 {
             }
             System.out.println();
         }
+
+        /*: Въведете число N чрез конзолата и изкарайте
+следните фигури, чиято височина да съответства на N.
+Всяка подточка я решете в отделен файл.
+*/
+
+        //figure 9
+        System.out.println("figure 9");
+        {
+            for (int i = cout; i > 0; i--) {
+
+                for (int x = cout - i; x > 0; x--) {
+                    System.out.print("  ");
+                }
+                for (int r = cout - i * 2; r < cout - 1; r++) {
+                    System.out.print("# ");
+
+                }
+
+                System.out.println();
+            }
+
+            //figure 10
+            System.out.println("figure 10");
+            for (int i = cout; i > 0; i--) {
+
+                for (int x = cout - i; x > 0; x--) {
+                    System.out.print("  ");
+                }
+                for (int r = cout - i * 2; r < cout - 1; r++) {
+                    System.out.print("# ");
+
+                }
+
+                System.out.println();
+            }
+        }
+
+        //figure 11
+        System.out.println("figure 11");
+        for (int i = 0;i<cout;i++)
+        {
+            for (int j = cout-i-1;j>0;j--)
+            {
+                System.out.print("  ");
+            }
+            for (int x = cout - i*2;x<=cout;x++) {
+                System.out.print("# ");
+            }
+            System.out.println();
+        }
+
+        //figure 12
+        System.out.println("figure 12");
+        {
+            for (int i = 0; i < cout; i++) {
+                for (int j = cout - i - 1; j > 0; j--) {
+                    System.out.print("  ");
+                }
+                for (int x = cout - i * 2; x <= cout; x++) {
+                    System.out.print("# ");
+                }
+                System.out.println();
+            }
+            for (int i = cout - 1; i > 0; i--) {
+
+                for (int x = cout - i; x > 0; x--) {
+                    System.out.print("  ");
+                }
+                for (int r = cout - i * 2; r < cout - 1; r++) {
+                    System.out.print("# ");
+
+                }
+
+                System.out.println();
+            }
+        }
+
     }
 }
 
