@@ -95,6 +95,32 @@ public class Task5 {
             System.out.println();
         }
 
+        //figure 6
+        System.out.println("figure 6");
+        tmp=1;
+        for (int i = 0; i <count;i++){
+
+            for (int r = i;r>0;r--){
+                System.out.print("  ");
+            }
+            for (int j = i+1;j<count+1;j++)
+            {
+                System.out.print(tmp+" ");
+                tmp++;
+            }
+            for (int x = count-i-1;x>0;x--)
+            {
+                System.out.print(x+" ");
+            }
+
+            for (int r = count-tmp;r>0;r--){
+                System.out.print(" ");
+            }
+
+            tmp=1;
+            System.out.println();
+        }
+
 
 
 
