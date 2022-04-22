@@ -141,7 +141,6 @@ public class Task5 {
         //figure 8
         System.out.println("figure 8");
         tmp=1;
-
         for (int i = 0;i<count;i++){
 
            //left side
@@ -165,12 +164,6 @@ public class Task5 {
             tmp=1;
             System.out.println();
         }
-
-
-
-
-
-
 
     }
 }
