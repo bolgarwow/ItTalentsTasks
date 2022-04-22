@@ -10,9 +10,6 @@ public class Task5 {
 Големина на фигурата съответства на N.
 Всяка подточка я решете в отделен файл.  */
 
-
-
-
         int count = 8;
         int tmp=1;
 
@@ -120,6 +117,56 @@ public class Task5 {
             tmp=1;
             System.out.println();
         }
+
+        //figure 7
+        System.out.println("figure 7");
+        tmp=1;
+        for (int i = 0; i<count+1;i++){
+           for (int j = 0;j<i;j++){
+               System.out.print(j+1+" ");
+           }
+
+           for (int h = count*2-i*2-1;h>0;h--){
+               System.out.print("  ");
+           }
+
+            for (int r = i;r>+0;r--) {
+                if (r!=8) {
+                    System.out.print(r + " ");
+                }
+            }
+           System.out.println();
+        }
+
+        //figure 8
+        System.out.println("figure 8");
+        tmp=1;
+
+        for (int i = 0;i<count;i++){
+
+           //left side
+
+            for (int x = i;x<count;x++){
+                System.out.print(tmp+" ");
+                tmp++;
+            }
+
+            for (int s = 0;s<i*2-1;s++)
+            {
+                System.out.print("  ");
+            }
+
+           //right side
+            for (int j = count-i;j>0;j--){
+                if (j!=8) {
+                    System.out.print(j + " ");
+                }
+            }
+            tmp=1;
+            System.out.println();
+        }
+
+
 
 
 
